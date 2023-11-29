@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <item
+        android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/baseline_home_24"
+     />
+
+
+    <item
+        android:id="@+id/gallery"
+        android:title="Gallery"
+        android:icon="@drawable/baseline_picture_in_picture_24"
+        />
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/baseline_people_alt_24"
+        />
+</menu>

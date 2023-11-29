@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:textAlignment="center"
+        android:text="Register"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"/>
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/logEmail"-->
+<!--        android:hint=" Email"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        />-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:src="@drawable/baseline_email_24"-->
+<!--        android:layout_marginRight="380dp"-->
+<!--        android:layout_marginTop="-30dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        />-->
+
+
+
+    <EditText
+        android:id="@+id/registerUserid"
+        android:hint=" User ID"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_people_alt_24"
+        android:layout_marginRight="380dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/registerUserPassword"
+        android:hint=" Password"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_lock_24"
+        android:layout_marginRight="380dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="SignUp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Ready Register.?"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/Red"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-20dp"
+        android:textColor="@color/blue"
+        />
+
+</LinearLayout>
