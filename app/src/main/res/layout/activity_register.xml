@@ -7,38 +7,23 @@
     android:orientation="vertical"
     tools:context=".Register">
 
-    <TextView
-        android:id="@+id/textview1"
-        android:textAlignment="center"
-        android:text="Register"
-        android:textStyle="bold"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textSize="30sp"/>
+        android:layout_height="70dp"
+        android:background="@drawable/signupbanner"
+        >
+        <TextView
+            android:id="@+id/textview1"
+            android:textAlignment="center"
+            android:text="Register"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
 
-
-<!--    <EditText-->
-<!--        android:id="@+id/logEmail"-->
-<!--        android:hint=" Email"-->
-<!--        android:layout_marginLeft="40dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="30dp"-->
-<!--        />-->
-
-
-<!--    <ImageView-->
-<!--        android:layout_width="20dp"-->
-<!--        android:layout_height="20dp"-->
-<!--        android:src="@drawable/baseline_email_24"-->
-<!--        android:layout_marginRight="380dp"-->
-<!--        android:layout_marginTop="-30dp"-->
-<!--        android:layout_marginLeft="10dp"-->
-<!--        />-->
-
-
+    </LinearLayout>
 
     <EditText
         android:id="@+id/registerUserid"
@@ -59,6 +44,45 @@
         />
 
     <EditText
+        android:id="@+id/registerUserfather"
+        android:hint=" Father's Name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_people_alt_24"
+        android:layout_marginRight="380dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:hint=" Email"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_email_24"
+        android:layout_marginRight="380dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <EditText
         android:id="@+id/registerUserPassword"
         android:hint=" Password"
         android:layout_marginLeft="40dp"
@@ -71,6 +95,24 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@drawable/baseline_lock_24"
+        android:layout_marginRight="380dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/registerUsercontacts"
+        android:hint=" Contacts"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_phone_24"
         android:layout_marginRight="380dp"
         android:layout_marginTop="-30dp"
         android:layout_marginLeft="10dp"

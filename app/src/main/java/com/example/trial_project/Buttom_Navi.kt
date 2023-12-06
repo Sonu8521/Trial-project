@@ -19,8 +19,8 @@ class Buttom_Navi : AppCompatActivity() {
                 R.id.home->LoadFragment(HomeFragment(
 
                 ))
-                R.id.gallery->LoadFragment(Image_Fragment<Any>())
-                R.id.profile->LoadFragment(Profile_Fragment())
+                R.id.gallery->LoadFragment(ImageFragment())
+                R.id.profile->LoadFragment(ProfileFragment())
 
             }
             true

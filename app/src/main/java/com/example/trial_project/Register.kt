@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 
 class Register : AppCompatActivity() {
 
@@ -20,7 +21,8 @@ class Register : AppCompatActivity() {
         userids=findViewById(R.id.registerUserid)
         passs=findViewById(R.id.registerUserPassword)
 
-        val registers=findViewById<Button>(R.id.registerBtn)
+
+        val registers=findViewById<Button>(R.id.signupbtn)
 
 
         val preference = getSharedPreferences("MySharedPref", MODE_PRIVATE)
@@ -31,7 +33,7 @@ class Register : AppCompatActivity() {
             editPreference.putString("pass", passs.text.toString()).apply()
             startActivity(Intent(this, MainActivity::class.java))
 
-
+            Toast.makeText(this, "Successfully Register", Toast.LENGTH_SHORT).show()
         }
 
     }
